@@ -1,0 +1,71 @@
+/* Common style */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    margin: 0 140px;
+}
+
+/* hero banner style */
+
+.hero-banner {
+    background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0)), url('images/Banner\ Image.png');
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 180px 300px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero-banner h4 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.hero-banner h2{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+/* Offer style */
+
+.offer{
+    text-align: center;
+    margin: 120px 0;
+}
+
+.offer h1{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 50px;
+}
+
+.offer h5{
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.offer h3{
+    font-weight: 700;
+    font-size: 48px;
+    color: #070211;
+    margin-top: 16px;
+    margin-bottom: 47px;
+}
+
+.offer img{
+    width: 50%;
+}
