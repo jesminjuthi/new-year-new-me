@@ -7,7 +7,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-main{
+main {
     margin: 0 140px;
 }
 
@@ -32,7 +32,7 @@ main{
     margin-bottom: 16px;
 }
 
-.hero-banner h2{
+.hero-banner h2 {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-size: 72px;
@@ -40,25 +40,25 @@ main{
 
 /* Offer style */
 
-.offer{
+.offer {
     text-align: center;
     margin: 120px 0;
 }
 
-.offer h1{
+.offer h1 {
     font-size: 88px;
     font-weight: 700;
     color: #FF0000;
     margin-bottom: 50px;
 }
 
-.offer h5{
+.offer h5 {
     color: #FF0000;
     font-weight: 500;
     font-size: 24px;
 }
 
-.offer h3{
+.offer h3 {
     font-weight: 700;
     font-size: 48px;
     color: #070211;
@@ -66,6 +66,62 @@ main{
     margin-bottom: 47px;
 }
 
-.offer img{
+.offer img {
     width: 50%;
+}
+
+/* Party section style */
+
+.party-sec {
+    background: linear-gradient(to right, rgb(7, 2, 17),
+            rgba(7, 2, 17, 0)), url('images/Vectorrr.png');
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 100px 126px;
+}
+
+.party-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.party-content{
+    width: 70%;
+}
+
+.party-content h2{
+    font-size: 64px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    letter-spacing: 7px;
+    margin-bottom: 24px;
+}
+
+.party-content p{
+    font-weight: 400;
+    font-size: 18px;
+    opacity: .8;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.party-content button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.party-img{
+    width: 30%;
+}
+
+.party-img img{
+    width: 100%;
 }
