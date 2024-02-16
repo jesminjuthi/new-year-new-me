@@ -163,7 +163,7 @@ main {
 
 /* Coming soon style */
 
-.coming-soon{
+.coming-soon {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,14 +171,14 @@ main {
     margin-top: 120px;
 }
 
-.left-info h4{
+.left-info h4 {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     color: #FF0000;
 }
 
-.left-info h3{
+.left-info h3 {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-size: 48px;
@@ -187,7 +187,7 @@ main {
     margin: 16px 0 22px;
 }
 
-.left-info p{
+.left-info p {
     color: #07021199;
     font-weight: 400;
     font-size: 20px;
@@ -195,17 +195,17 @@ main {
 }
 
 .center-info {
-    border: 15px solid red;
+    border: 15px solid #FF0000;
     border-radius: 50%;
     padding: 45px;
 }
 
-.center-info img{
+.center-info img {
     width: 300px;
     display: block;
 }
 
-.right-info h3{
+.right-info h3 {
     color: #FF0000;
     font-weight: 700;
     font-size: 48px;
@@ -213,7 +213,7 @@ main {
     margin-bottom: 16px;
 }
 
-.right-info p{
+.right-info p {
     color: #07021199;
     font-size: 20px;
     font-weight: 400;
@@ -221,6 +221,38 @@ main {
     margin-bottom: 40px;
 }
 
-.right-info img{
+.right-info img {
     width: 40%;
+}
+
+.holidays {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.holidays h5 {
+    color: #070211;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.holidays h2{
+    margin: 16px 0 28px;
+    color: #070211;
+    font-weight: 900;
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+}
+
+.holidays h2 span{
+    color: #FF0000;
+}
+
+.holidays p{
+    color: #07021199;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 150px;
 }
