@@ -11,7 +11,7 @@ main {
     margin: 0 140px;
 }
 
-.mt-48{
+.mt-48 {
     margin-top: 48px;
 }
 
@@ -241,7 +241,7 @@ main {
     line-height: 29px;
 }
 
-.holidays h2{
+.holidays h2 {
     margin: 16px 0 28px;
     color: #070211;
     font-weight: 900;
@@ -249,11 +249,11 @@ main {
     font-family: "Merriweather", serif;
 }
 
-.holidays h2 span{
+.holidays h2 span {
     color: #FF0000;
 }
 
-.holidays p{
+.holidays p {
     color: #07021199;
     font-weight: 500;
     font-size: 20px;
@@ -263,7 +263,7 @@ main {
 
 /* Holidays banner style */
 
-.holidays-banner{
+.holidays-banner {
     display: flex;
     justify-content: space-evenly;
     margin-top: 120px;
@@ -277,7 +277,7 @@ main {
 }
 
 
-.img-left img{
+.img-left img {
     width: 70%;
     vertical-align: bottom;
 }
@@ -297,11 +297,13 @@ main {
     top: 0%;
 }
 
-.portfolio{
+/* Portfolio style */
+
+.portfolio {
     margin-top: 120px;
 }
 
-.portfolio h4{
+.portfolio h4 {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -309,7 +311,7 @@ main {
     margin-bottom: 16px;
 }
 
-.portfolio h3{
+.portfolio h3 {
     font-weight: 900;
     font-size: 48px;
     color: #070211;
@@ -317,7 +319,7 @@ main {
     margin-bottom: 22px;
 }
 
-.portfolio p{
+.portfolio p {
     color: #07021199;
     font-weight: 400;
     font-size: 20px;
@@ -338,6 +340,64 @@ main {
     width: 100%;
 }
 
-.img-wrapper img:hover{
+.img-wrapper img:hover {
     opacity: .5;
+}
+
+/* subscribe style */
+
+.subscribe {
+    padding: 80px 212px;
+    text-align: center;
+    margin-top: 120px;
+    background-color: #FF00000D;
+    border-radius: 15px;
+}
+
+.subscribe img {
+    width: 15%;
+}
+
+.subscribe h3 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 40px 0 22px;
+}
+
+.subscribe p {
+    color: #07021199;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+form {
+    font-size: 0;
+}
+
+input[type="email"] {
+    padding: 25px;
+    width: 60%;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    color: #0702114D;
+}
+
+input[type="submit"] {
+    padding: 20px 56px;
+    border: none;
+    color: #fff;
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
 }
