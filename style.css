@@ -11,6 +11,10 @@ main {
     margin: 0 140px;
 }
 
+.mt-48{
+    margin-top: 48px;
+}
+
 /* hero banner style */
 
 .hero-banner {
@@ -291,4 +295,49 @@ main {
     width: 22%;
     right: 15%;
     top: 0%;
+}
+
+.portfolio{
+    margin-top: 120px;
+}
+
+.portfolio h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.portfolio h3{
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+    font-family: "Merriweather", serif;
+    margin-bottom: 22px;
+}
+
+.portfolio p{
+    color: #07021199;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 650px;
+}
+
+.portfolio-img {
+    display: flex;
+    gap: 20px;
+}
+
+.img-wrapper {
+    margin-bottom: 20px;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+.img-wrapper img:hover{
+    opacity: .5;
 }
