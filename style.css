@@ -256,3 +256,38 @@ main {
     line-height: 32px;
     margin: 0 150px;
 }
+
+/* Holidays banner style */
+
+.holidays-banner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 65px;
+    background-image: url('images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px 16px 16px 16px;
+    background-size: 986px;
+    position: relative;
+}
+
+
+.img-left img{
+    width: 60%;
+    vertical-align: bottom;
+}
+
+.img-right .girl-img {
+    position: absolute;
+    right: 7.5%;
+    top: 0;
+    width: 20%;
+    z-index: -1;
+}
+
+.img-right .offer-img {
+    position: absolute;
+    width: 15%;
+    right: 20%;
+    top: 10%;
+}
