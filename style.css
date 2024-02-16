@@ -447,6 +447,7 @@ footer .social-icons {
 .social-icons img{
     margin-right: 24px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .footer-bottom {
