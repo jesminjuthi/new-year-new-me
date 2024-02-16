@@ -137,7 +137,7 @@ main {
     margin-top: 120px;
 }
 
-.info h4{
+.info h4 {
     font-size: 32px;
     line-height: 56px;
     font-weight: 600;
@@ -145,11 +145,11 @@ main {
     text-transform: capitalize;
 }
 
-.info h4 span{
+.info h4 span {
     color: #FF0000;
 }
 
-.info button{
+.info button {
     padding: 16px 32px;
     border: none;
     color: #fff;
@@ -159,4 +159,68 @@ main {
     font-weight: 700;
     margin-top: 50px;
     cursor: pointer;
+}
+
+/* Coming soon style */
+
+.coming-soon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    margin-top: 120px;
+}
+
+.left-info h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FF0000;
+}
+
+.left-info h3{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    color: #070211;
+    margin: 16px 0 22px;
+}
+
+.left-info p{
+    color: #07021199;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.center-info {
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 45px;
+}
+
+.center-info img{
+    width: 300px;
+    display: block;
+}
+
+.right-info h3{
+    color: #FF0000;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+
+.right-info p{
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.right-info img{
+    width: 40%;
 }
